@@ -31,12 +31,12 @@ Bu proje, otonom sürüş güvenliği ve akıllı ulaşım sistemleri için krit
 Raporda gerçekleştirilen 5 farklı deneyin karşılaştırmalı sonuçları aşağıdadır:
 
 
-| Model Mimarisi | Optimizer | Batch Size | mAP₅₀ (%) | Box Loss |
-|---|---|---|---|---|
-| **YOLOv11n** | Auto | 16 | **99.5** | 0.24 |
-| YOLOv8n (Referans) | AdamW | 16 | 99.2 | **0.22** |
-| YOLOv8n | SGD | 16 | 98.9 | 0.36 |
-| Faster R-CNN | ResNet50 | - | 94.0 | - |
+| Model Mimarisi | Optimizer | Batch Size | mAP₅₀ (%) | Box Loss | İndirme (Release) |
+|---|---|---|---|---|---|
+| **YOLOv11n** | Auto | 16 | **99.5** | 0.24 | - |
+| YOLOv8n (Referans) | AdamW | 16 | 99.2 | **0.22** | - |
+| YOLOv8n | SGD | 16 | 98.9 | 0.36 | - |
+| Faster R-CNN | ResNet50 | - | 94.0 | - | - |
 
 
 
