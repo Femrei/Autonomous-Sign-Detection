@@ -31,13 +31,13 @@ Bu proje, otonom sürüş güvenliği ve akıllı ulaşım sistemleri için krit
 Raporda gerçekleştirilen 5 farklı deneyin karşılaştırmalı sonuçları aşağıdadır:
 
 
-| Model Mimarisi | Optimizer | Batch Size | mAP₅₀ (%) | Box Loss | İndirme (Release) |
-|---|---|---|---|---|---|
-| **YOLOv11n** | Auto | 16 | **99.5** | 0.24 | https://github.com/Femrei/Autonomous---Sign--Detection-/releases/download/v1.0.0/model_v11.pt |
-| YOLOv8n (Referans) | AdamW | 16 | 99.2 | **0.22** | https://github.com/Femrei/Autonomous---Sign--Detection-/releases/download/v1.0.0/model_v8_batch16.pt |
-| YoLOv8n | AdamW | 8 | - | - |https://github.com/Femrei/Autonomous---Sign--Detection-/releases/download/v1.0.0/model_v8_batch8.pt |
-| YOLOv8n | SGD | 16 | 98.9 | 0.36 | https://github.com/Femrei/Autonomous---Sign--Detection-/releases/download/v1.0.0/model_v8_sgd.pt |
-| Faster R-CNN | ResNet50 | - | 94.0 | - | https://github.com/Femrei/Autonomous---Sign--Detection-/releases/download/v1.0.0/faster_rcnn.pth |
+| Model Mimarisi | Optimizer | Batch Size | mAP₅₀ (%) | Box Loss | İndir |
+|---|---|---|---|---|:---:|
+| **YOLOv11n** | Auto | 16 | **99.5** | 0.24 | [⬇️ İndir](https://github.com/Femrei/Autonomous---Sign--Detection-/releases/download/v1.0.0/model_v11.pt) |
+| YOLOv8n (Referans) | AdamW | 16 | 99.2 | **0.22** | [⬇️ İndir](https://github.com/Femrei/Autonomous---Sign--Detection-/releases/download/v1.0.0/model_v8_batch16.pt) |
+| YOLOv8n | AdamW | 8 | - | - | [⬇️ İndir](https://github.com/Femrei/Autonomous---Sign--Detection-/releases/download/v1.0.0/model_v8_batch8.pt) |
+| YOLOv8n | SGD | 16 | 98.9 | 0.36 | [⬇️ İndir](https://github.com/Femrei/Autonomous---Sign--Detection-/releases/download/v1.0.0/model_v8_sgd.pt) |
+| Faster R-CNN | ResNet50 | - | 94.0 | - | [⬇️ İndir](https://github.com/Femrei/Autonomous---Sign--Detection-/releases/download/v1.0.0/faster_rcnn.pth) |
 
 
 
